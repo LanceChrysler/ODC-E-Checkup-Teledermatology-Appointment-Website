@@ -1,0 +1,54 @@
+body::before{
+    display: block;
+    content:'';
+    height: 80px;
+}
+
+nav {
+    background-image: url(../img/nav.jpg);
+}
+
+nav img {
+    height: 50px;
+}
+
+nav button, footer button {
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+
+nav button:hover, footer button:hover{
+    color: #e75525;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+section button {
+    width: 100%;
+}
+
+.boxes {
+    border-radius: 5px;
+}
+
+.container {
+    font-family: Century Gothic;
+}
+
+.head {
+    font-size: 1.7em;
+}
+
+.body {
+    font-size: 1.2em;
+}
+.list {
+    font-size: 1.1em;
+}
+.book {
+    font-size: 1.5em;
+    color: #0070ff;
+}
